@@ -1,0 +1,68 @@
+//  ------------------------------------------------------------------------------
+//  ----------------------------- CSS Blocks Files ------------------------------
+//  ------------------------------------------------------------------------------
+.header {
+	position: fixed;
+	width: 100%;
+	top: 0;
+	left: 0;
+	z-index: 20;
+	height:80px;
+	background-color: $mainBackground;
+	color: $mainText;
+  // box-shadow: 0 2px 5px 0 rgba(0,0,0,.1);
+  display: flex;
+  padding: 5px 0;
+  align-items: center;
+  justify-content: space-between;
+
+	&__container{
+		display: flex;
+    justify-content: space-between;
+		align-items: center;
+		position: relative;
+		// z-index: 30;
+	}
+
+	&__logo{
+	}
+
+	&__nav{
+	}
+
+	&__menu{
+	}
+}
+
+.menu{
+
+	&__item{
+		@include setText();
+		@include transition-colors();
+		color: $mainText;
+		width: 100%;
+
+		&:hover{
+			color: $mainPinkLight;
+		}
+		&--active{
+			color: $mainPinkLight;
+		}
+		&--btn{
+			&:hover,
+			&:focus {
+				color: #fff;
+			}
+		}
+	}
+}
+
+
+.logo{
+	&__link{
+
+	}
+	&__img{
+
+	}
+}
