@@ -2526,9 +2526,7 @@ main {
   margin-bottom: 180px;
 }
 
-.infoDirect {
-  margin-bottom: 200px;
-}
+
 .infoDirect__container {
   border: 5px solid #fff;
   border-radius: 0 100px 0 100px;
@@ -2545,6 +2543,11 @@ main {
 }
 .infoDirect__container:hover:before {
   transform: scale(1.1);
+}
+.infoDirect__info{
+	overflow: auto;
+	max-height: 400px;
+	padding-right: 20px;
 }
 .infoDirect__title {
   margin-bottom: 30px;

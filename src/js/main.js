@@ -85,8 +85,12 @@ $(document).ready(function() {
 
 new Swiper('.image-slider', {
 	navigation: {
-		// // Стрелки
-		// nextEl: '.swiper-button-next',
-		// prevEl: '.swiper-button-prev'
+		// Стрелки
+		nextEl: '.swiper-button-next',
+		prevEl: '.swiper-button-prev'
+	},
+	scrollbar: {
+		el: '.swiper-scrollbar',
+		draggable: true
 	}
 });

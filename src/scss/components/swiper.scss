@@ -52,6 +52,14 @@
 
 .image-slider{
 	// padding: 20px 0;
+	.swiper-pagination-fraction{
+		font-size: 20px;
+		color: #fff;
+	}
+	.swiper-scrollbar-drag{
+		cursor: pointer;
+		background-color: #ff1e1e;
+	}
 }
 .image-slider__wrapper{}
 .image-slider__slide{
@@ -63,6 +71,7 @@
 	align-items: center;
 	justify-content: center;
 }
+
 // .image-slider__image{
 // 	text-align: center;
 // }
